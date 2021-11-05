@@ -51,7 +51,7 @@ span.sobrenome{
     align-items: center;
 }
 .grid1 div{
-    padding: 5px;
+    padding: 10px;
 }
 .texts p{
     text-align: justify;
@@ -171,7 +171,7 @@ button:hover{
     margin-bottom: 25px;
 }
 .grid3 button{
-    width: 250px;
+    width: 300px;
 }
 .grid3 button img{
     width: 13px;
