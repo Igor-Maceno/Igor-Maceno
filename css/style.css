@@ -1,19 +1,25 @@
 *{
     font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     color: white;
     margin: 0;
     padding: 0;
+    list-style-type: none;
+    text-decoration: none;
 }
 body{
-    background-image: linear-gradient(to right, #413B38, #39322F);
-    padding: 54px;
+    background-color: #413B38;
     
 }
+#conteiner{
+    max-width: 800px;
+    margin: auto;
+    padding: 25px;
+}
+/**-------------Menu--------------**/
 .header{
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -22,41 +28,120 @@ body{
 }
 .menu li{
     margin-left: 10px;
-    list-style-type: none;
-}
-.grid1{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    max-width: 800px;
-    margin: 0 auto;
-    grid-gap: 20px;
-}
-.texts div{
-    padding: 5px;
-}
-h1{
-    font-weight: 400;
-}
-h3{
-    color: #F16929;
-}
-span.sobrenome{
-    font-weight: 900;
+    
 }
 ul li a img{
     height: 40px;
     width: 40px;
 }
+span.sobrenome{
+    font-weight: 900;
+}
+/**-------------Seção 1--------------**/
+.grid1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    max-width: 800px;
+}
+.grid1 > div:nth-child(n+2){
+    display: grid;
+    align-items: center;
+}
+.grid1 div{
+    padding: 5px;
+}
+h2{
+    font-weight: 900;
+}
+h3{
+    font-weight: 700;
+    color: #F16929;
+}
 img.igor-pic{
-    height: 300px;
+    height: 250px;
 }
 button{
-    font-weight: 700;
-    align-items: center;
     border-radius: 15px;
     border-style: none;
     background-color: #35AF23;
-    width: 150px;
-    height: 50px;
+    width: 140px;
+    height: 40px;
+}
+button img{
+    width: 10px;
+}
+button a{
+    font-weight: 700;
+}
+button:hover{
+    background-color: #48af39;
+}
+@media (max-width: 600px){
+    .grid1{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
 }
 
+/**-------------Seção 2--------------**/
+
+.grid2{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    text-align: center;
+}
+.grid2 p{
+    text-align: justify;
+}
+.grid2 h3{
+    color: white;
+}
+.hability{
+    background-color: #39322F;
+    padding: 30px;
+    margin: 10px;
+}
+.hability h3{
+    padding: 15px;
+}
+.orange{
+    background-color: #F16929;
+}
+.grid2 > div:nth-child(n+5){
+    display: grid;
+    grid-template-rows: 2;
+}
+.tools{
+    background-color: #39322F;
+    padding: 10px;
+    margin: 10px;
+}
+.tools p{
+    text-align: center;
+}
+.xp{
+    grid-column: 1;
+    grid-row: 2/4;
+    margin: auto;
+}
+.xp h2{
+    color: #F16929;
+    font-size: 46px;
+    padding: 10px;
+}
+@media (max-width: 600px){
+    .grid2{
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .xp{
+        grid-column: 1;
+        grid-row: 4/8;
+        margin: auto;
+    }
+}
