@@ -12,7 +12,7 @@ body{
     
 }
 #conteiner{
-    max-width: 800px;
+    max-width: 720px;
     margin: auto;
     padding: 25px;
 }
@@ -42,7 +42,7 @@ span.sobrenome{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 50px;
-    max-width: 800px;
+    max-width: 720px;
 }
 .grid1 > div:nth-child(n+2){
     display: grid;
@@ -50,6 +50,9 @@ span.sobrenome{
 }
 .grid1 div{
     padding: 5px;
+}
+.texts p{
+    text-align: justify;
 }
 h2{
     font-weight: 900;
@@ -91,7 +94,7 @@ button:hover{
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 800px;
+    max-width: 720px;
     text-align: center;
 }
 .grid2 img{
@@ -105,7 +108,7 @@ button:hover{
 }
 .hability{
     background-color: #39322F;
-    padding: 30px;
+    padding: 20px;
     margin: 10px;
 }
 .hability h3{
