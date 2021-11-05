@@ -9,12 +9,15 @@
 }
 body{
     background-color: #483E39;
+    padding: 25px;
     
+}
+h1{
+    font-size: 24;
 }
 #conteiner{
     max-width: 720px;
     margin: auto;
-    padding: 25px;
 }
 /**-------------Menu--------------**/
 .header{
@@ -152,8 +155,10 @@ button:hover{
 }
 /**-------------Seção 3--------------**/
 .jobs{
-    margin: 20px;
+    margin: 20 auto;
+    padding: 10px;
     display: inline-block;
+
 }
 .jobs img{
     width: 300px;
@@ -174,10 +179,10 @@ button:hover{
 }
 /**-------------Rodapé--------------**/
 footer{
-    margin-top: 25px;
+    margin-top: 30px;
     text-align: center;
-    border-top: 1px solid #39322F   ;
+    border-top: 1px solid #39322F;
 }
 footer h1{
-    padding: 10px;
+    padding: 15px;
 }
