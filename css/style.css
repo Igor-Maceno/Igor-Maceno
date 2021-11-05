@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 body{
-    background-color: #413B38;
+    background-color: #483E39;
     
 }
 #conteiner{
@@ -94,6 +94,9 @@ button:hover{
     max-width: 800px;
     text-align: center;
 }
+.grid2 img{
+    width: 80px;
+}
 .grid2 p{
     text-align: justify;
 }
@@ -144,4 +147,35 @@ button:hover{
         grid-row: 4/8;
         margin: auto;
     }
+}
+/**-------------Seção 3--------------**/
+.jobs{
+    margin: 20px;
+    display: inline-block;
+}
+.jobs img{
+    width: 300px;
+}
+.grid3{
+    text-align: center;
+    margin-top: 50px;
+}
+.grid3 h2{
+    margin-bottom: 25px;
+}
+.grid3 button{
+    width: 350px;
+}
+.grid3 button img{
+    width: 13px;
+    margin-left: 5px;
+}
+/**-------------Rodapé--------------**/
+footer{
+    margin-top: 25px;
+    text-align: center;
+    border-top: 1px solid #39322F   ;
+}
+footer h1{
+    padding: 10px;
 }
