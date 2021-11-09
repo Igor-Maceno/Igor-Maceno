@@ -8,12 +8,31 @@
     text-decoration: none;
 }
 body{
-    background-color: #483E39;
+    background-color: #FFFFFF;
     padding: 25px;
     
 }
 h1{
+    color: #6200ee;
     font-size: 24;
+}
+span.sobrenome{
+    color: #6200ee;
+    font-weight: 900;
+}
+h2{
+    color: #6200ee;
+    font-weight: 900;
+}
+h3{
+    font-weight: 700;
+    color: #6200ee;
+}
+p{
+    color: #121212;
+}
+p.p2{
+    color: #FFFFFF;
 }
 #conteiner{
     max-width: 720px;
@@ -36,9 +55,6 @@ ul li a img{
     height: 40px;
     width: 40px;
 }
-span.sobrenome{
-    font-weight: 900;
-}
 /**-------------Seção 1--------------**/
 .grid1{
     display: grid;
@@ -56,20 +72,13 @@ span.sobrenome{
 .texts p{
     text-align: justify;
 }
-h2{
-    font-weight: 900;
-}
-h3{
-    font-weight: 700;
-    color: #F16929;
-}
 img.igor-pic{
     height: 250px;
 }
 button{
     border-radius: 15px;
     border-style: none;
-    background-color: #35AF23;
+    background-color: #6200ee;
     width: 140px;
     height: 40px;
 }
@@ -109,7 +118,7 @@ button:hover{
     color: white;
 }
 .hability{
-    background-color: #39322F;
+    background-color: #121212;
     padding: 20px;
     margin: 10px;
 }
@@ -117,14 +126,14 @@ button:hover{
     padding: 15px;
 }
 .orange{
-    background-color: #F16929;
+    background-color: #6200ee;
 }
 .grid2 > div:nth-child(n+5){
     display: grid;
     grid-template-rows: 2;
 }
 .tools{
-    background-color: #39322F;
+    background-color: #121212;
     padding: 10px;
     margin: 10px;
 }
@@ -137,7 +146,7 @@ button:hover{
     margin: auto;
 }
 .xp h2{
-    color: #F16929;
+    color: #6200ee;
     font-size: 46px;
     padding: 10px;
 }
@@ -181,7 +190,7 @@ button:hover{
 footer{
     margin-top: 30px;
     text-align: center;
-    border-top: 1px solid #39322F;
+    border-top: 1px solid #121212;
 }
 footer h1{
     padding: 15px;
