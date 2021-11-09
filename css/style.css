@@ -88,9 +88,11 @@ button img{
 button a{
     font-weight: 700;
 }
-button:hover{
-    background-color: #48af39;
+/*
+.b2{
+    text-align: right;    
 }
+*/
 @media (max-width: 600px){
     .grid1{
         display: grid;
@@ -118,7 +120,7 @@ button:hover{
     color: white;
 }
 .hability{
-    background-color: #121212;
+    background-color: #292929;
     padding: 20px;
     margin: 10px;
 }
@@ -133,7 +135,7 @@ button:hover{
     grid-template-rows: 2;
 }
 .tools{
-    background-color: #121212;
+    background-color: #292929;
     padding: 10px;
     margin: 10px;
 }
