@@ -8,28 +8,28 @@
     text-decoration: none;
 }
 body{
-    background-color: #FFFFFF;
+    background-color: #121212;
     padding: 25px;
     
 }
 h1{
-    color: #6200ee;
+    color: #FFFFFF;
     font-size: 24;
 }
 span.sobrenome{
-    color: #6200ee;
+    color: #FFFFFF;
     font-weight: 900;
 }
 h2{
-    color: #6200ee;
+    color: #FFFFFF;
     font-weight: 900;
 }
 h3{
     font-weight: 700;
-    color: #6200ee;
+    color: #BB86FC;
 }
 p{
-    color: #121212;
+    color: #FFFFFF;
 }
 p.p2{
     color: #FFFFFF;
@@ -84,7 +84,7 @@ img.igor-pic{
 button{
     border-radius: 15px;
     border-style: none;
-    background-color: #6200ee;
+    background-color: #BB86FC;
     width: 140px;
     height: 40px;
 }
@@ -134,7 +134,7 @@ button a{
     padding: 15px;
 }
 .orange{
-    background-color: #6200ee;
+    background-color: #BB86FC;
 }
 .grid2 > div:nth-child(n+5){
     display: grid;
@@ -154,7 +154,7 @@ button a{
     margin: auto;
 }
 .xp h2{
-    color: #6200ee;
+    color: #BB86FC;
     font-size: 46px;
     padding: 10px;
 }
@@ -214,7 +214,7 @@ section.tecnologies img{
 footer{
     margin-top: 20px;
     text-align: center;
-    border-top: 1px solid #121212;
+    border-top: 1px solid #FFFFFF;
 }
 footer h1{
     padding: 15px;

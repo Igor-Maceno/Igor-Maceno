@@ -9,36 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">
     <!--Google Fonts-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" id="style" href="css/style.css">
     <script src="js/script.js"></script>
     <title>Igor Maceno</title>
 </head>
-<body>
+<body id="corpo">
 <div id="conteiner">
     <!------------Menu----------->
 <header class="header">
-    <h1>Igor <span class="sobrenome">Maceno</span></h1>
+    <h1 id="modeH1">Igor <span class="sobrenome">Maceno</span></h1>
     <nav class="flex-conteiner">
         <ul class="menu">
             <li>
-                <a href="https://www.behance.net/igorlopesmbd63" target="_blank"><img src="img/icone_behance.png" alt="behance"></a>
+                <a href="https://www.behance.net/igorlopesmbd63" target="_blank"><img src="img/icone_behance.png" id="behance" alt="behance"></a>
             </li>
             <li>
-                <a href="https://www.linkedin.com/in/igor-lopes-maceno-653355110/" target="_blank"><img src="img/icone_linkedin.png" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/igor-lopes-maceno-653355110/" target="_blank"><img src="img/icone_linkedin.png" id="linkedin" alt="linkedin"></a>
             </li>
             <li>
-                <a href="https://github.com/Igor-Maceno" target="_blank"><img src="img/icone_github.png" alt="github"></a>
+                <a href="https://github.com/Igor-Maceno" target="_blank"><img src="img/icone_github.png" id="github" alt="github"></a>
             </li>
             </ul>
     </nav>
     
 </header>
-<!--
-<div class="b2">
-    <img src="img/darkMode.png" alt="darkMode" id="dM" onclick="darkMode(1)">
-</div>
--->
 
+<div class="b2">
+    <img src="img/darkMode.png" alt="darkMode" id="dM" onclick="darkMode()">
+</div>
 
 <!------------Primeira seção----------->
 <section class="grid1">
@@ -69,7 +67,7 @@
 <!------------Segunda seção----------->
 <section class="grid2">
     <div class="hability">
-        <img src="img/ideia.png" alt="">
+        <img src="img/ideia.png" id="ideia" alt="">
         <h3>Design</h3>
         <p class="p2">Presto serviços como
             designer gráfico a 
@@ -89,7 +87,7 @@
             para atuar na área.</p>
     </div>
     <div class="hability">
-        <img src="img/ti.png" alt="">
+        <img src="img/ti.png" id="ti" alt="">
         <h3>Tecnologia</h3>
         <p class="p2">Sempre me considerei
             uma pessoa muito 
@@ -117,6 +115,21 @@
     <div class="tools">
         <h3>100+</h3>
         <p class="p2">Projetos</p>
+    </div>
+</section>
+<!------------Terceira seção----------->
+<section class="tecnologies">
+    <div>
+        <img src="img/html.png" alt="html">
+    </div>
+    <div>
+        <img src="img/css.png" alt="css">
+    </div>
+    <div>
+        <img src="img/javascript.png" alt="javascript">
+    </div>
+    <div>
+        <img src="img/wordpress.png" id="wp" alt="wordpress">
     </div>
 </section>
 <!------------Terceira seção----------->
