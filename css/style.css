@@ -49,6 +49,10 @@ p.p2{
 .menu{
     display: flex;
 }
+.menu li{
+    margin-left: 10px;
+    
+}
 ul li a img{
     height: 40px;
     width: 40px;
@@ -201,8 +205,8 @@ section.tecnologies img{
     margin-bottom: 25px;
 }
 .grid3 button{
-    margin: 50px;
-    width: 300px;
+    margin: 10px 10px;
+    width: 380px;
 }
 .grid3 button img{
     width: 13px;
