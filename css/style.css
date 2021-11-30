@@ -10,6 +10,8 @@
 body{
     background-color: #FFFFFF;
     padding: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden;
     
 }
 h1{
@@ -46,10 +48,6 @@ p.p2{
 }
 .menu{
     display: flex;
-}
-.menu li{
-    margin-left: 10px;
-    
 }
 ul li a img{
     height: 40px;

@@ -10,6 +10,8 @@
 body{
     background-color: #121212;
     padding: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden;
     
 }
 h1{
