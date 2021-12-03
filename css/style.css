@@ -189,7 +189,7 @@ section.tecnologies img{
 
 /**-------------Seção 4--------------**/
 .jobs{
-    margin: 20 auto;
+    margin: 20px auto;
     padding: 10px;
     display: inline-block;
 
@@ -205,7 +205,7 @@ section.tecnologies img{
     margin-bottom: 25px;
 }
 .grid3 button{
-    margin: 5px 50px;
+    
     width: 300px;
 }
 .grid3 button img{
