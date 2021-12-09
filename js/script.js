@@ -23,3 +23,15 @@ function darkMode(){
         i++;
     }
 }
+const text = document.querySelector(".typewriter");
+typewriter(text);
+function typewriter(elemento){
+    const textArray = elemento.innerHTML.split('');
+    elemento.innerHTML='';
+    textArray.forEach((element, i) => {
+        setTimeout(function(){
+            elemento.innerHTML += element
+        }, 150*i)
+    });
+}
+console.log(text);
