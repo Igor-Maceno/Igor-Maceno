@@ -8,7 +8,6 @@ function darkMode(){
         document.getElementById("github").src="img/icone_github.png";
         document.getElementById("ideia").src="img/ideia.png";
         document.getElementById("ti").src="img/ti.png";
-        document.getElementById("wp").src="img/wordpress.png";
         document.getElementById("style").href="css/style.css"
         i++;
     }else{
@@ -18,7 +17,6 @@ function darkMode(){
         document.getElementById("github").src="img/github2.png";
         document.getElementById("ideia").src="img/ideia2.png";
         document.getElementById("ti").src="img/ti2.png";
-        document.getElementById("wp").src="img/wordpress2.png";
         document.getElementById("style").href="css/style2.css"
         i++;
     }
@@ -34,4 +32,3 @@ function typewriter(elemento){
         }, 150*i)
     });
 }
-console.log(text);
