@@ -205,6 +205,10 @@ section.tecnologies img{
 .jobs img{
     width: 300px;
 }
+.jobs .tags{
+    color: #5E5E5E;
+    margin-bottom: 20px;
+}
 .grid3{
     text-align: center;
     margin-top: 50px;
