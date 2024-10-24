@@ -40,9 +40,6 @@ p.p2{
     max-width: 720px;
     margin: auto;
 }
-button{
-    cursor: pointer;
-}
 /**-------------Menu--------------**/
 .header{
     display: flex;

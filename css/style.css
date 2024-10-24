@@ -40,9 +40,6 @@ p.p2{
     max-width: 720px;
     margin: auto;
 }
-button{
-    cursor: pointer;
-}
 /**-------------Menu--------------**/
 .header{
     display: flex;
@@ -92,7 +89,7 @@ img.igor-pic{
     background-color: #6200ee;
     width: 140px;
     height: 40px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     font-size: 1rem;
 }
 .button img{
