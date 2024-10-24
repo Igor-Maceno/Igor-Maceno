@@ -224,16 +224,17 @@ footer {
 footer h1 {
   padding: 15px;
 }
+/**----------Botão Whats-----------**/
 .whats {
-  position: fixed;
-  cursor: pointer;
-  width: 50px;
-  height: 60px;
-  bottom: 50px;
-  right: 50px;
-  transition: 1s;
-}
-.whats img {
-  max-width: 60px;
-  height: auto;
-}
+    position: fixed;
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    bottom: 30px;
+    right: 30px;
+    transition: 1s;
+  }
+  .whats img {
+    max-width: 60px;
+    height: auto;
+  }
