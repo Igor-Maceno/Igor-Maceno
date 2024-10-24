@@ -40,6 +40,9 @@ p.p2{
     max-width: 720px;
     margin: auto;
 }
+button{
+    cursor: pointer;
+}
 /**-------------Menu--------------**/
 .header{
     display: flex;
@@ -83,17 +86,19 @@ ul li a img{
 img.igor-pic{
     height: 250px;
 }
-button{
+.button{
     border-radius: 15px;
     border-style: none;
     background-color: #6200ee;
     width: 140px;
     height: 40px;
+    padding: 5px 20px;
+    font-size: 1.5rem;
 }
-button img{
-    width: 10px;
+.button img{
+    width: 20px;
 }
-button a{
+.button a{
     font-weight: 700;
 }
 /*
@@ -189,7 +194,10 @@ section.tecnologies img{
     margin: 20px auto;
     padding: 10px;
     display: inline-block;
-
+    max-width: 300px;
+}
+.jobs p{
+    margin-bottom: 10px;
 }
 .jobs img{
     width: 300px;
